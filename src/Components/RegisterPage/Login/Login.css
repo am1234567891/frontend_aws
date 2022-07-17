@@ -1,0 +1,13 @@
+.login-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 120px;
+  margin-inline: 1rem;
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}

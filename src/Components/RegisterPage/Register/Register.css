@@ -1,0 +1,87 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  width: 382px;
+  height: 20px;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding: 12px 12px;
+}
+
+.input-field:focus {
+  outline: #4a4a4a;
+}
+
+.input-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.pw-req {
+  width: 400px;
+  padding-top: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-container {
+  width: 395px;
+  height: 50px;
+  border: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #4a4a4a;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: background-color 0.4s;
+}
+
+.button-container:hover {
+  background-color: #787878;
+}
+
+.google-container {
+  width: 395px;
+  height: 50px;
+  border: 1px solid #c9c7c7;
+  font-family: "Inter", sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.4s;
+}
+
+.google-container:hover {
+  background-color: #c9c7c7;
+}
+
+.line {
+  background: #fff;
+  padding: 0 10px;
+}

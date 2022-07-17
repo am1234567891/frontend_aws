@@ -1,0 +1,38 @@
+.scroll-container {
+  display: flex;
+  margin: 0 5%;
+  padding-bottom: 100px;
+}
+
+.scroll-area {
+  flex: 1 0 0;
+  height: fit-content;
+}
+
+.scroll-image-area {
+  position: relative;
+  padding-left: 50px;
+  flex: 1 0 0;
+  display: block;
+}
+
+.features {
+  height: 73vh;
+}
+
+.moving-image {
+  position: sticky;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: calc(50% - 250px);
+}
+
+.scrollingImage1,
+.scrollingImage2,
+.scrollingImage3 {
+  position: absolute;
+  transition: opacity 0.5s ease 0s;
+  opacity: 0;
+}

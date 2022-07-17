@@ -1,0 +1,47 @@
+.classes-section {
+  background-color: #a8a4bc;
+  margin-top: 150px;
+}
+
+.classes-container {
+  width: 92%;
+  margin: auto;
+  position: relative;
+  bottom: 70px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.classes-display-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.classes-container-label {
+  background-color: #503c6c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.classes-container-title {
+  color: white;
+  margin: 2% 4%;
+}
+
+.classes-container-titlebutton {
+  background-color: #00b3d7;
+  border: 0;
+  width: 200px;
+  height: 60px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 75px;
+}
+
+.classes-container-titlebutton:hover {
+  cursor: default;
+}

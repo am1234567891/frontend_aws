@@ -1,0 +1,83 @@
+.class-card-container {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  width: 1500px;
+  height: 150px;
+  margin: auto;
+}
+
+.class-card-container:hover {
+  cursor: default;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  width: 800px;
+}
+
+.title-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.title-container-content-classtitle {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 30px;
+}
+
+.title-container-content-classdesc {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title-container img {
+  border: 2px solid #00b3d7;
+  border-radius: 50%;
+}
+
+.studentview-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content-title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.content-link {
+  margin: 0;
+  color: #00b3d7;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.teacherview-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.teacherview-container button {
+  color: white;
+  background-color: #00b3d7;
+  border: 0;
+  width: 180px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.teacherview-container button:hover {
+  cursor: default;
+}
